@@ -1,0 +1,85 @@
+#root {
+  box-sizing: border-box;
+  margin-top: 40px;
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(103, 125, 144);
+}
+
+.addInput {
+  color: aqua;
+  width: 500px;
+  border: 1px solid rgba(39, 11, 11, 0.172);
+  border-radius: 2em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.721);
+}
+
+.addBtn {
+  margin-left: 20px;
+  font-size: 15px;
+  width: 50px;
+  height: 25px;
+  border-radius: 2em;
+  border: 0px;
+  background-color: rgba(35, 124, 35, 0.766);
+  transition: 0.2s;
+}
+
+.addBtn:hover {
+  font-size: 20px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(120, 142, 55);
+}
+
+.divTable {
+  margin-top: 30px;
+  background-color: rgba(10, 138, 138, 0.445);
+  -webkit-box-shadow: 0px 0px 8px 17px rgba(223, 21, 21, 0.2);
+  -moz-box-shadow: 0px 0px 8px 17px rgba(223, 21, 21, 0.2);
+  box-shadow: 0px 0px 8px 17px rgba(223, 21, 21, 0.2);
+  border-radius: 3em;
+  padding: 20px;
+}
+
+.btnDel {
+  margin-left: 5px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(222, 188, 188);
+  border: 0ch;
+  border-radius: 1em;
+  transition: 0.3s;
+}
+.btnDel:hover {
+  width: 44px;
+  height: 22px;
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(211, 22, 22);
+}
+
+.btnPatch {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(179, 238, 159);
+  border: 0ch;
+  border-radius: 1em;
+  transition: 0.3s;
+}
+
+.btnPatch:hover {
+  width: 44px;
+  height: 22px;
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(15, 238, 86);
+}
+
